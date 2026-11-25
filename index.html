@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Круассан | Мир выпечки</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <a href="#" class="logo">Croissant</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">О нас</a></li>
+                    <li><a href="Gallery.html">Галерея</a></li>
+                    <li><a href="Menu.html">Меню</a></li>
+                    <li><a href="Contact.html">Связаться</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>Мастера Выпечки</h1>
+            <p>Погрузитесь в мир запечённых сладостей, тающего шоколада и ароматной выпечки. Никогда неплохо побаловать себя чем-нибудь вкусным.</p>
+            <a href="#gallery" class="btn">Смотреть работы</a>
+        </div>
+    </section>
+    <section class="vibe-block">
+        <div>
+            <blockquote>
+                «Вкусная еда - это как музыка, которую можно поробовать на вкус совершенства — вам его никогда не достичь.»
+            </blockquote>
+            <cite>— Джоуль Робюшон</cite>
+        </div>
+    </section>  
+    <section id="themes">
+        <div class="container">
+            <h2>О нас</h2>
+            <div class="themes-grid">
+                <div class="theme-card">
+                    <div class="icon-placeholder">⏱️</div>
+                    <h3>Скорость готовки</h3>
+                    <p>Вся наша выпечка готовится очень быстро!</p>
+                </div>
+                <div class="theme-card">
+                    <div class="icon-placeholder">🍫</div>
+                    <h3>Море шоколада</h3>
+                    <p>Не жалеем начинки.</p>
+                </div>
+                <div class="theme-card">
+                    <div class="icon-placeholder">🥐</div>
+                    <h3>Виды выпечки</h3>
+                    <p>Много видов выпечки - от обычных булочек, до тортов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="slider-section">
+        <div class="container">
+            <h2>Галерея шедевров</h2>           
+            <div class="css-slider">
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+                <div class="slider-track">
+                    <div class="slide">
+                        <img src="торт.jpg" alt="Шоколадный бум">
+                        <div class="slide-caption">«Шоколадный бум» (Торт), 1931</div>
+                    </div>
+                    <div class="slide">
+                        <img src="чизкейк.jpg" alt="Голубично - малиновый пейзаж">
+                        <div class="slide-caption">«Голубично - малиновый пейзаж», 1948 (Чизкейк)</div>
+                    </div>
+                    <div class="slide">
+                        <img src="круассан.jpg" alt="Французский круассан">
+                        <div class="slide-caption">«Французский круассан», 1952 (Круассан)</div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="eras">
+        <div class="container">
+            <h2>Меню</h2>
+            <div class="era-grid">
+                <div class="era-card">
+                    <h3>Напитки</h3>
+                    <div class="era-years">30 - 500 руб.</div>
+                    <ul>
+                        <li>Зелёный чай</li>
+                        <li>Чёрный чай</li>
+                        <li>Фруктовый Смузи</li>
+                        <li>Шоколадный коктейль</li>
+                        <li>Банановый коктейль</li>
+                        <li>Клубничный коктейль</li>
+                    </ul>
+                </div>
+                <div class="era-card popular">
+                    <h3>Выпечка</h3>
+                    <div class="era-years">100 - 2000 руб.</div>
+                    <ul>
+                        <li>Шоколадный круассан</li>
+                        <li>Чизкейк с голубикой</li>
+                        <li>Булочки с джемом</li>
+                        <li>Шоколадный торт</li>
+                        <li>Клубничный торт</li>
+                        <li>Торт-мороженое</li>
+                    </ul>
+                </div>
+                <div class="era-card">
+                    <h3>Солёное</h3>
+                    <div class="era-years">100 - 2000 руб.</div>
+                    <ul>
+                        <li>Круассан с ветчиной</li>
+                        <li>Сендвичи</li>
+                        <li>Мясной пирог</li>
+                        <li>Булочки с яйцом и луком</li>
+                        <li>Пирожки с картошкой</li>
+                        <li>Сырная лепёшка</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Подпишитесь на новости пекарни</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш Email" required>
+                <button type="submit" class="btn">Подписаться</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Salvador Dalí. Все права защищены. КТ3.</p>
+        </div>
+    </footer>
+</body>
+</html>
